@@ -1,8 +1,8 @@
-# Q1. Summary
+# Summary
 This project develops and uses a novel binary classification -  supervised learning technique and compares its performance other standard machine learning techniques. The method used here is referred to as alpha splaying and its implementation can be found in `src/AlphaSplayer.py`. The implemented technique is feed-forward in that it doesn't use update procedures or loss functions to improve the classification metrics. 
 
 
-# Q2. Dataset Description
+# Dataset Description
 For this project, we will be using 9 well known - openly available classification datasets. Since the method developed in this project uses a decision boundary separating two clusters, we're using binary classification datasets. Note that the Wine dataset used here originally has 3 classes, but for this project, we're only considering the first two classes.
 
 ## Dataset:  [Arrhythmia](https://archive.ics.uci.edu/ml/datasets/Arrhythmia)
@@ -201,7 +201,7 @@ Num Class 1: 59
 --------------------------------------------------
 
 
-# Q3. Details
+# Details
 
 ## Introduction
 Some of the commonly used machine learning - classification algorithms include k-nearest neighbours (KNN), Bayesian learners, support-vector machines (SVM),  random forests, and neural networks. Most of these models involve creating a decision boundary to separate two or more classes and often require custom parameters based on the dataset. The classification technique created in this project is based on the vector machine formulation created by Dr. Jacob Levman, which can be found [here][1]. The vector machine formulation works on the formula below.
